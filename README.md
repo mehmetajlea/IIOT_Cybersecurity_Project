@@ -16,7 +16,7 @@ The repository contains the following files and directories:
   5. `5_krahasimi_pytesor.png` - A comparison plot between the synthetic data patterns and actual survey responses.
 
 ## Technologies Used
-- **Python 3**
+- **Python 3.11.9**
 - **Pandas** & **NumPy** (Data manipulation and analysis)
 - **Matplotlib** & **Seaborn** (Data visualization)
 - **Scikit-learn** (Linear Regression modeling and Min-Max scaling)
