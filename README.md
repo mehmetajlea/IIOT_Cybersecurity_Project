@@ -1,6 +1,12 @@
-# IIoT Cybersecurity Project
+# IIoT Cybersecurity in Smart Manufacturing Systems
 
 This project focuses on analyzing cybersecurity within Industrial Internet of Things (IIoT) manufacturing systems. It includes an analysis of an expanded synthetic dataset and compares it with empirical data collected via a survey regarding knowledge and implementation of cybersecurity mechanisms.
+
+## Project Overview
+- **Authors:** Lea Mehmetaj & Agnesa Islami 
+- **Academic Mentor:** Prof. Dr. Ylber Limani
+- **Focus:** Evaluation of cybersecurity mechanisms (Encryption, MFA, IDS, AI Anomaly Detection, Zero Trust) and their impact on reducing cyber attacks, mitigating system downtime, and improving manufacturing efficiency.
+
 
 ## Project Structure
 
