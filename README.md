@@ -1,0 +1,32 @@
+# IIoT Cybersecurity Project
+
+This project focuses on analyzing cybersecurity within Industrial Internet of Things (IIoT) manufacturing systems. It includes an analysis of an expanded synthetic dataset and compares it with empirical data collected via a survey regarding knowledge and implementation of cybersecurity mechanisms.
+
+## Project Structure
+
+The repository contains the following files and directories:
+- `main.py`: The core Python script used for data preprocessing, statistical analysis, training a Linear Regression model, and generating data visualizations.
+- `Expanded_IIoT_Cybersecurity_Dataset.xlsx`: A synthetic dataset containing 1,000 samples and 30 variables related to cyber attacks and industrial performance metrics.
+- `Pytesor_Rezultatet.xlsx`: Survey responses collected from students and field professionals regarding IIoT security perceptions.
+- **Generated Visualizations (.png):**
+  1. `1_mekanizmat_vs_sulme.png` - Visualizes the impact of encryption and MFA on reducing cyber attacks.
+  2. `2_mekanizmat_vs_nderprerja.png` - Shows the correlation between security measures and system downtime reduction.
+  3. `3_testimi_hipotezes.png` - Displays statistical hypothesis testing results regarding security effectiveness.
+  4. `4_lidhja_korrelacioni.png` - A correlation matrix heatmap between key variables.
+  5. `5_krahasimi_pytesor.png` - A comparison plot between the synthetic data patterns and actual survey responses.
+
+## Technologies Used
+- **Python 3**
+- **Pandas** & **NumPy** (Data manipulation and analysis)
+- **Matplotlib** & **Seaborn** (Data visualization)
+- **Scikit-learn** (Linear Regression modeling and Min-Max scaling)
+
+## How to Run the Project
+1. Ensure you have the required libraries installed:
+   ```bash
+   pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
+    ```
+2. Execute the main script:
+   ```bash
+   python main.py
+     ```
