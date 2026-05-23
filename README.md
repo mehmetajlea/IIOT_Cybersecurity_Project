@@ -1,31 +1,79 @@
 # IIoT Cybersecurity in Smart Manufacturing Systems
 
-This project focuses on analyzing cybersecurity within Industrial Internet of Things (IIoT) manufacturing systems. It includes an analysis of an expanded synthetic dataset and compares it with empirical data collected via a survey regarding knowledge and implementation of cybersecurity mechanisms.
+This project focuses on analyzing cybersecurity within Industrial Internet of Things (IIoT) smart manufacturing systems. It evaluates how different cybersecurity mechanisms impact cyber attacks, system downtime, and overall industrial efficiency using both synthetic data and real survey responses.
 
-## Project Overview
-- **Author:** Lea Mehmetaj
-- **Academic Mentor:** Prof. Dr. Ylber Limani
-- **Focus:** Evaluation of cybersecurity mechanisms (Encryption, MFA, IDS, AI Anomaly Detection, Zero Trust) and their impact on reducing cyber attacks, mitigating system downtime, and improving manufacturing efficiency.
+---
 
+## 📌 Project Overview
 
-## Project Structure
+**Author:** Lea Mehmetaj  
+**Academic Mentor:** Prof. Dr. Ylber Limani  
 
-The repository contains the following files and directories:
-- `main.py`: The core Python script used for data preprocessing, statistical analysis, training a Linear Regression model, and generating data visualizations.
-- `Expanded_IIoT_Cybersecurity_Dataset.xlsx`: A synthetic dataset containing 1,000 samples and 30 variables related to cyber attacks and industrial performance metrics.
-- `Pytesor_Rezultatet.xlsx`: Survey responses collected from students and field professionals regarding IIoT security perceptions.
-- **Generated Visualizations (.png):**
-  1. `1_mekanizmat_vs_sulme.png` - Visualizes the impact of encryption and MFA on reducing cyber attacks.
-  2. `2_mekanizmat_vs_nderprerja.png` - Shows the correlation between security measures and system downtime reduction.
-  3. `3_testimi_hipotezes.png` - Displays statistical hypothesis testing results regarding security effectiveness.
-  4. `4_lidhja_korrelacioni.png` - A correlation matrix heatmap between key variables.
-  5. `5_krahasimi_pytesor.png` - A comparison plot between the synthetic data patterns and actual survey responses.
+### 🎯 Objective
+The main goal of this project is to evaluate the effectiveness of cybersecurity mechanisms in IIoT systems and their impact on:
+
+- Reduction of cyber attacks (DoS, DDoS, Malware)
+- Reduction of system downtime
+- Improvement of manufacturing efficiency
+- Comparison between synthetic dataset and survey results
+
+---
+
+## 🧠 Cybersecurity Mechanisms Analyzed
+
+- Encryption Level
+- Multi-Factor Authentication (MFA)
+- IDS (Intrusion Detection System)
+- AI-based Anomaly Detection
+- Zero Trust Architecture
+
+---
+
+## 📊 Datasets
+
+### 1. Synthetic Dataset
+- File: `Expanded_IIoT_Cybersecurity_Dataset.xlsx`
+- 1000 samples
+- 30 variables
+- Includes attack metrics and system performance indicators
+
+### 2. Survey Dataset
+- File: `Pytesor_Rezultatet.xlsx`
+- Responses from students and professionals
+- Measures awareness and implementation of cybersecurity mechanisms
+
+---
+
+## 📈 Generated Visualizations
+
+The Python script generates the following figures:
+
+- `1_mekanizmat_vs_sulme.png` → Impact of security mechanisms on cyber attacks
+- `2_mekanizmat_vs_nderprerja.png` → Impact on system downtime
+- `3_testimi_hipotezes.png` → Comparison between basic and advanced systems
+- `4_lidhja_korrelacioni.png` → Correlation analysis between variables
+- `5_krahasimi_pytesor.png` → Comparison of synthetic vs survey data
+
+---
 
 ## Technologies Used
-- **Python 3.11.9**
-- **Pandas** & **NumPy** (Data manipulation and analysis)
-- **Matplotlib** & **Seaborn** (Data visualization)
-- **Scikit-learn** (Linear Regression modeling and Min-Max scaling)
+
+- Python 3.11.9
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- OpenPyXL
+
+---
+
+##  How to Run
+
+### 1. Install dependencies
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
+```
 
 ## How to Run the Project
 1. Ensure you have the required libraries installed:
