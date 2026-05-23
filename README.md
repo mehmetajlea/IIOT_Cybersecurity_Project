@@ -48,11 +48,13 @@ The main goal of this project is to evaluate the effectiveness of cybersecurity 
 
 The Python script generates the following figures:
 
-- `1_mekanizmat_vs_sulme.png` → Impact of security mechanisms on cyber attacks
-- `2_mekanizmat_vs_nderprerja.png` → Impact on system downtime
-- `3_testimi_hipotezes.png` → Comparison between basic and advanced systems
-- `4_lidhja_korrelacioni.png` → Correlation analysis between variables
-- `5_krahasimi_pytesor.png` → Comparison of synthetic vs survey data
+- 1_ROC_Curve_Krahasimi.png → ROC curves for all models
+- 2_Krahasimi_Metrikave_BarChart.png → Accuracy & F1 comparison
+- 3_mekanizmat_vs_sulme.png → Feature importance (XGBoost)
+- 4_mekanizmat_vs_nderprerja.png → Regression on downtime
+- 5_testimi_hipotezes.png → Advanced vs basic system comparison
+- 6_lidhja_korrelacioni.png → Correlation heatmap
+- 7_krahasimi_pytesor.png → AI vs survey comparison
 
 ---
 
