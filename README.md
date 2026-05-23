@@ -4,12 +4,12 @@ This project focuses on analyzing cybersecurity within Industrial Internet of Th
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 **Author:** Lea Mehmetaj  
 **Academic Mentor:** Prof. Dr. Ylber Limani  
 
-### 🎯 Objective
+###  Objective
 The main goal of this project is to evaluate the effectiveness of cybersecurity mechanisms in IIoT systems and their impact on:
 
 - Reduction of cyber attacks (DoS, DDoS, Malware)
@@ -19,7 +19,7 @@ The main goal of this project is to evaluate the effectiveness of cybersecurity 
 
 ---
 
-## 🧠 Cybersecurity Mechanisms Analyzed
+##  Cybersecurity Mechanisms Analyzed
 
 - Encryption Level
 - Multi-Factor Authentication (MFA)
@@ -29,7 +29,7 @@ The main goal of this project is to evaluate the effectiveness of cybersecurity 
 
 ---
 
-## 📊 Datasets
+##  Datasets
 
 ### 1. Synthetic Dataset
 - File: `Expanded_IIoT_Cybersecurity_Dataset.xlsx`
@@ -44,7 +44,7 @@ The main goal of this project is to evaluate the effectiveness of cybersecurity 
 
 ---
 
-## 📈 Generated Visualizations
+## Generated Visualizations
 
 The Python script generates the following figures:
 
